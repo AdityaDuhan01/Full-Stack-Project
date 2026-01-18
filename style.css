@@ -1,0 +1,52 @@
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Sidebar hover effect */
+.sidebar li {
+  position: relative;
+  transition: 
+    background-color 0.3s ease,
+    padding-left 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.sidebar li:hover {
+  padding-left: 22px;
+  box-shadow: inset 4px 0 0 var(--accent);
+}
+
+/* Card hover animation */
+.card {
+  cursor: pointer;
+  transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    background-color 0.35s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Top bar title hover glow */
+.topbar h1 {
+  transition: text-shadow 0.3s ease;
+}
+
+.topbar h1:hover {
+  text-shadow: 0 0 10px rgba(37, 99, 235, 0.8);
+}
+
+/* Theme toggle button animation */
+#themeToggle {
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+#themeToggle:hover {
+  transform: rotate(15deg) scale(1.1);
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.9);
+}
