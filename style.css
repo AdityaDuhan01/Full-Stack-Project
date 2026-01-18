@@ -102,6 +102,7 @@
 }
 
 /* RESPONSIVE DESIGN */
+
 @media (max-width: 768px) {
     .dashboard {
         grid-template-columns: 1fr;
@@ -110,4 +111,29 @@
     .sidebar {
         text-align: center;
     }
+    /* =========================
+   DARK MODE STYLES
+   ========================= */
+
+body.dark {
+    background-color: #0f172a;
+}
+
+body.dark .dashboard {
+    background-color: #0f172a;
+}
+
+body.dark .sidebar {
+    background-color: #020617;
+    color: #f9fafb;
+}
+
+body.dark .topbar h1 {
+    color: #f9fafb;
+}
+
+body.dark .card {
+    background-color: #020617;
+    color: #f9fafb;
+}
 }
