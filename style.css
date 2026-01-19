@@ -6,14 +6,13 @@ body.dark {
     background-color: #020617;
 }
 
-body.dark .dashboard {
+.dashboard {
+    background-color: #f4f6f8;
+}
+body.dark .dashboard,
+body.dark .dashboard .main {
     background-color: #020617;
 }
-
-body.dark .main {
-    background-color: #020617;
-}
-
 body.dark .sidebar {
     background-color: #020617;
     border-right: 1px solid #334155;
